@@ -1,0 +1,37 @@
+/* Class Example*/
+.container {
+    width: 90%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn {
+    border: 0;
+    color: $text_color_white;
+    border-radius: 10px;
+    padding: 12px 32px;
+    background-color: $primary_color;
+    height: 48px;
+    font-style: $font_size_small;
+    font-weight: $font_weight_bold;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    color: $primary_color;
+}
